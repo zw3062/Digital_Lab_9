@@ -116,7 +116,7 @@ void sequence() {
 
     for (int i = 0; i < 3; i++) {
       if (buttonOn[i][step] == true) {
-        usbMIDI.sendNoteOn(midiNote[i], 127, 1);
+        usbMIDI.sendNoteOn(midiNote[i], 130, 1);
       }
       lastStepTime = millis();
     }
