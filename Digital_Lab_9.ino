@@ -79,7 +79,7 @@ void checkLeds() {
   if (step != prevStep) {
       
       for (int i = 0; i < 3; i++) {
-        ran[i] = random(0, 100);
+        ran[i] = random(0, 150);
       }
       neopixel.setPixelColor(4, ran[0], ran[1], ran[2]);
       neopixel.show();
