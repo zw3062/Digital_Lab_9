@@ -2,7 +2,7 @@
 Adafruit_NeoPixel neopixel = Adafruit_NeoPixel(5, 4, NEO_RGB);
 uint32_t colour[3] = { neopixel.Color(150, 0, 0), neopixel.Color(0, 150, 0), neopixel.Color(0, 0, 150) };
 int ran[3] = { 0, 0, 0 };
-int buttons[4] = { 24, 25, 27, 29 };
+int buttons[4] = { 23, 24, 26, 27 };
 bool buttonOn[3][4] = {
   { false, false, false, false },
   { false, false, false, false },
